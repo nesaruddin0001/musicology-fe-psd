@@ -1,0 +1,753 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+/* header start      */
+header {
+    padding: 18px 0;
+}
+.logo img {
+    width: 70% !important;
+}
+.navbar-toggler {
+    padding: 0;
+    color: #fff;
+    background-color: white;
+    border: var(--bs-border-width) solid #e8631c; 
+}
+.menu ul li a {
+    margin: 11px 0 0;
+    font-size: 16px;
+}
+.dropdown-menu {
+    --bs-dropdown-min-width: 10rem;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 0%;
+    left: 100%;
+}
+.search_btn i {
+    font-size: 16px;
+}
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+    color: transparent;
+    background-color: transparent;
+    /* border-color: var(--bs-btn-active-border-color); */
+}
+/* header end  */
+
+/* banner start  */
+.banner_item{
+    margin: 250px 0 75px;
+    text-align: center;
+}
+.banner_item h1 {
+    font-size: 55px;
+}
+.banner_item p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+.btn_cus {
+    padding: 3px 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+/* banner end  */
+
+/* dance tour start  */
+.tour {
+    padding: 50px 0 50px;
+}
+.cmn_row_item h2 {
+    margin: 0 0 25px;
+    font-size: 35px;
+}
+.cmn_row_item p {
+    font-size: 18px;
+}
+.card_item {
+    margin: 45px 0 0;
+    padding: 0 30px;
+}
+.card_text h3 {
+    padding: 20px 0 0;
+    font-size: 25px;
+}
+.card_text p {
+    padding: 10px 0;
+    font-size: 16px;
+}
+/* dance tour end  */
+
+/* pricing start  */
+.price {
+    padding: 50px 0 50px;
+}
+.price_padd {
+    padding: 0 42px;
+}
+.price_item {
+    margin: 45px 0 0;
+    padding: 0 20px;
+}
+.price_icon {
+    margin: 30px 0;
+    font-size: 90px;
+}
+.price_item h3 {
+    font-size: 25px;
+}
+.price_item p{
+    padding: 15px 0 15px;
+    font-size: 16px;
+}
+.btn_price {
+    margin: 0 0 20px;
+    width: 75%;
+    font-size: 20px;
+}
+/* pricing end  */
+
+/* amazing dance start  */
+.cmn_amazing_best_text {
+    text-align: center;
+    padding: 50px 0 20px;
+}
+.cmn_amazing_best_text h2 {
+    font-size: 35px;
+}
+.cmn_amazing_best_text p {
+    padding: 30px 3px;
+    font-size: 20px;
+    letter-spacing: 0;
+    word-spacing: 0px;
+}
+.cmn_amazing_best_btn {
+    padding: 3px 16px;
+    font-size: 25px;
+    background-color: #303030;
+}
+/* amazing dance end  */
+
+/* statistics start  */
+.statistics {
+    padding: 120px 0 150px;
+}
+.statistics_content{
+    margin: 50px 0 0;
+}
+.statistics_content h2{
+    font-size: 40px;
+}
+.counterplus{
+    font-size: 40px;
+}
+.statistics_content h4{
+    font-size: 25px;
+}
+/* statistics end  */
+
+/* herbert simon start  */
+.herbert{
+    padding: 150px 0;
+}
+.herbert_item {
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+.herbert_item p{
+    font-size: 25px;
+}
+.herbert_item h2{
+    margin: 35px 0 0;
+    font-size: 30px;
+}
+/* herbert simon end  */
+
+/* subscribe  start  */
+.subscribe {
+    padding: 70px 0 100px;
+}
+.form_input input {
+    margin-bottom: 12px;
+    font-size: 20px;
+    text-align: center;
+}
+.btn_subscribe {
+    width: 100%;
+    font-size: 25px;
+}
+/* subscribe end  */
+
+/* footer start  */
+footer {
+    padding: 40px 0 20px;
+    text-align: center;
+}
+.foot_cmn_title {
+    margin: 0 0 25px 0;
+    font-size: 25px;
+}
+.foot_menu_cmn_title{
+    margin: 50px 0 25px 0;
+}
+.foot_content p{
+    margin: 0 0 20px 0;
+    font-size: 16px;
+}
+.foot_menu_list li{
+    line-height: 35px;
+}
+.foot_menu_list li a {
+    font-size: 17px;
+}
+.foot_social_icon li a {
+    margin: 0 5px 0 0;
+    font-size: 25px;
+}
+/* footer end  */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+/* header start      */
+header {
+    padding: 18px 0;
+}
+.navbar-toggler {
+    padding: 0;
+    color: #fff;
+    background-color: white;
+    border: var(--bs-border-width) solid #e8631c; 
+}
+.menu ul li a {
+    margin: 13px 0 0;
+    font-size: 16px;
+}
+.dropdown-menu {
+    --bs-dropdown-min-width: 10rem;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 0%;
+    left: 100%;
+}
+.search_btn i {
+    font-size: 16px;
+}
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+    color: transparent;
+    background-color: transparent;
+    /* border-color: var(--bs-btn-active-border-color); */
+}
+/* header end  */
+
+/* banner start  */
+.banner_item{
+    margin: 200px 0 50px;
+    text-align: center;
+}
+.banner_item h1 {
+    font-size: 85px;
+}
+.banner_item p {
+    margin: 25px 0;
+    font-size: 20px;
+}
+.btn_cus {
+    padding: 3px 20px;
+    font-size: 22px;
+}
+/* banner end  */
+
+/* dance tour start  */
+.tour {
+    padding: 65px 0 75px;
+}
+.cmn_row_item h2 {
+    margin: 0 0 30px;
+    font-size: 50px;
+}
+.cmn_row_item p {
+    font-size: 25px;
+}
+.card_item {
+    margin: 65px 0 0;
+    padding: 0 30px;
+}
+.card_text h3 {
+    padding: 25px 0 0;
+    font-size: 30px;
+}
+.card_text p {
+    padding: 10px 25px;
+    font-size: 20px;
+}
+/* dance tour end  */
+
+/* pricing start  */
+.price {
+    padding: 65px 0 75px;
+}
+.price_padd {
+    padding: 0 42px;
+}
+.price_item {
+    margin: 65px 0 0;
+    padding: 0 30px;
+}
+.price_item h3 {
+    font-size: 30px;
+}
+.price_item p{
+    padding: 20px 0 20px;
+    font-size: 20px;
+}
+.btn_price {
+    margin: 0 0 25px;
+    width: 80%;
+    font-size: 22px;
+}
+/* pricing end  */
+
+/* amazing dance start  */
+.cmn_amazing_best_text {
+    text-align: center;
+    padding: 60px 0 25px;
+}
+.cmn_amazing_best_text h2 {
+    font-size: 50px;
+}
+.cmn_amazing_best_text p {
+    padding: 30px 4px;
+    font-size: 23px;
+    word-spacing: 0px;
+}
+/* amazing dance end  */
+
+/* statistics start  */
+.statistics {
+    padding: 150px 0 180px;
+}
+.statistics_content{
+    margin: 70px 0 0;
+}
+.statistics_content h2{
+    font-size: 50px;
+}
+.counterplus{
+    font-size: 50px;
+}
+.statistics_content h4{
+    font-size: 30px;
+}
+/* statistics end  */
+
+/* herbert simon start  */
+.herbert{
+    padding: 200px 0;
+}
+.herbert_item {
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+.herbert_item p{
+    font-size: 30px;
+}
+.herbert_item h2{
+    margin: 45px 0 0;
+    font-size: 40px;
+}
+/* herbert simon end  */
+
+/* subscribe  start  */
+.subscribe {
+    padding: 80px 0 120px;
+}
+.form_input input {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.btn_subscribe {
+    width: 100%;
+}
+/* subscribe end  */
+
+/* footer start  */
+footer {
+    padding: 70px 0 20px;
+    text-align: center;
+}
+.foot_cmn_title {
+    font-size: 26px;
+}
+.foot_menu_cmn_title{
+    margin: 50px 0 20px 0;
+}
+.foot_content p{
+    margin: 0 0 18px 0;
+    font-size: 20px;
+}
+.foot_menu_list li a {
+    font-size: 17px;
+}
+.foot_social_icon li a {
+    margin: 0 15px 0 0;
+}
+/* footer end  */
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/* header start      */
+header {
+    padding: 18px 0;
+}
+.navbar-toggler {
+    padding: 0;
+    color: #fff;
+    background-color: white;
+    border: var(--bs-border-width) solid #e8631c; 
+}
+.menu ul li a {
+    margin: 15px 0 0;
+    font-size: 16px;
+}
+.dropdown-menu {
+    --bs-dropdown-min-width: 12rem;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 0%;
+    left: 100%;
+}
+.search_btn i {
+    font-size: 16px;
+}
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+    color: transparent;
+    background-color: transparent;
+    /* border-color: var(--bs-btn-active-border-color); */
+}
+/* header end  */
+
+/* banner start  */
+.banner_item{
+    margin: 220px 0 50px;
+    text-align: center;
+}
+.banner_item h1 {
+    font-size: 100px;
+}
+.banner_item p {
+    margin: 30px 0;
+    font-size: 25px;
+}
+.btn_cus {
+    padding: 5px 30px;
+    font-size: 24px;
+}
+/* banner end  */
+
+/* dance tour start  */
+.tour {
+    padding: 80px 0 85px;
+}
+.cmn_row_item h2 {
+    margin: 0 0 40px;
+    font-size: 60px;
+}
+.cmn_row_item p {
+    font-size: 25px;
+}
+.card_item {
+    margin: 80px 0 0;
+    padding: 0 30px;
+}
+.card_text h3 {
+    padding: 30px 0 0;
+}
+.card_text p {
+    padding: 15px 35px;
+}
+/* dance tour end  */
+
+/* pricing start  */
+.price {
+    padding: 80px 0 85px;
+}
+.price_padd {
+    padding: 0 42px;
+}
+.price_item {
+    margin: 80px 0 0;
+    padding: 0 60px;
+}
+.btn_price {
+    margin: 0 0 29px;
+    font-size: 25px;
+}
+/* pricing end  */
+
+/* amazing dance start  */
+.cmn_amazing_best_text {
+    text-align: center;
+    padding: 70px 0 30px;
+}
+.cmn_amazing_best_text h2 {
+    font-size: 53px;
+}
+.cmn_amazing_best_text p {
+    padding: 35px 5px;
+    font-size: 25px;
+    word-spacing: 2px;
+}
+/* amazing dance end  */
+
+/* statistics start  */
+.statistics {
+    padding: 150px 0 210px;
+}
+.statistics_content{
+    margin: 130px 0 0;
+}
+.statistics_content h2{
+    font-size: 50px;
+}
+.counterplus{
+    font-size: 50px;
+}
+.statistics_content h4{
+    font-size: 30px;
+}
+/* statistics end  */
+
+/* herbert simon start  */
+.herbert{
+    padding: 250px 0;
+}
+.herbert_item p{
+    font-size: 34px;
+}
+.herbert_item h2{
+    margin: 60px 0 0;
+    font-size: 45px;
+}
+/* herbert simon end  */
+
+/* subscribe  start  */
+.subscribe {
+    padding: 90px 0 130px;
+}
+.form_input input {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.btn_subscribe {
+    width: 100%;
+}
+/* subscribe end  */
+
+/* footer start  */
+footer {
+    padding: 80px 0 30px;
+    text-align: center;
+}
+.foot_cmn_title {
+    font-size: 30px;
+}
+.foot_menu_cmn_title{
+    margin: 60px 0 25px 0;
+}
+.foot_content p{
+    margin: 0 0 25px 0;
+    font-size: 23px;
+}
+.foot_menu_list li a {
+    font-size: 17px;
+}
+.foot_social_icon li a {
+    margin: 0 15px 0 0;
+}
+/* footer end  */
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/* header start  */
+.menu ul li a {
+    margin: 0 20px 4px;
+}
+/* header end  */  
+
+/* banner start  */
+.banner_item p {
+    font-size: 27px;
+}
+/* banner end  */
+
+/* dance tour start  */
+.tour {
+    padding: 100px 0 90px;
+}
+.cmn_row_item h2 {
+    margin: 0 0 50px;
+}
+/* dance tour end  */
+
+/* pricing start  */
+.price {
+    padding: 100px 0 90px;
+}
+.price_item p{
+    font-size: 23px;
+}
+/* pricing end  */
+
+/* amazing dance start  */
+.cmn_amazing_best_text h2 {
+    font-size: 55px;
+}
+.cmn_amazing_best_text p {
+    padding: 40px 0;
+}
+/* amazing dance end  */
+
+/* statistics start  */
+.statistics {
+    padding: 170px 0 230px;
+}
+.statistics_content{
+    margin: 180px 0 0;
+}
+.statistics_content h2{
+    font-size: 55px;
+}
+.counterplus{
+    font-size: 55px;
+}
+.statistics_content h4{
+    font-size: 35px;
+}
+/* statistics end  */
+
+/* herbert simon start  */
+.herbert{
+    padding: 300px 0;
+}
+.herbert_item p{
+    font-size: 42px;
+}
+.herbert_item h2{
+    margin: 70px 0 0;
+    font-size: 55px;
+}
+/* herbert simon end  */
+
+/* .subscribe start  */
+.form_input input {
+    padding: 6px 21px;
+}
+.btn_subscribe {
+    padding: 3px 9px;
+}
+/* .subscribe end  */
+
+/* footer start  */
+footer {
+    padding: 90px 0 40px;
+}
+.foot_content p{
+    margin: 0 0 35px 0;
+    font-size: 25px;
+}
+.foot_menu_list li a {
+    font-size: 17px;
+}
+.foot_social_icon li a {
+    margin: 0 15px 0 0;
+}
+/* footer end  */
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px){ 
+
+/* header start  */
+.menu ul li a {
+    margin: 0 25px 4px;
+}
+/* header end  */
+
+/* amazing dance start  */
+.cmn_amazing_best_text h2 {
+    font-size: 65px;
+}
+/* amazing dance end  */
+
+/* statistics start  */
+.statistics {
+    padding: 180px 0 250px;
+}
+.statistics_content{
+    margin: 190px 0 0;
+}
+.statistics_content h2{
+    font-size: 60px;
+}
+.counterplus{
+    font-size: 60px;
+}
+.statistics_content h4{
+    font-size: 40px;
+}
+/* statistics end  */
+
+/* herbert simon start  */
+.herbert{
+    padding: 320px 0;
+}
+.herbert_item p{
+    font-size: 45px;
+}
+.herbert_item h2{
+    margin: 75px 0 0;
+    font-size: 58px;
+}
+/* herbert simon end  */
+
+/* .subscribe start  */
+.form_input input {
+    padding: 6px 21px;
+}
+.btn_subscribe {
+    padding: 3px 23px;
+}
+/* .subscribe end  */
+
+/* footer start  */
+footer {
+    padding: 100px 0 70px;
+}
+.foot_content p{
+    font-size: 28px;
+}
+.foot_menu_list li a {
+    font-size: 20px;
+}
+/* footer end  */
+
+}
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) { 
+    
+}
+
+
+

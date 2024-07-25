@@ -1,0 +1,450 @@
+/* font links  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
+/* common start  */
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+}
+/* common end  */
+
+
+
+/* header start  */
+header{
+    padding: 30px 0;
+    background-color: #303030;
+}
+.logo{}
+.logo img{}
+.menu{}
+.menu ul li a{
+    margin: 0 40px 4px;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .33s;
+}
+.menu ul li a:hover{
+    color: #e8631c;
+}
+.search_cus{}
+.search_btn{}
+.search_btn i{
+    font-size: 25px;
+    color: #ffffff;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.search_input{
+    margin: 2px 0 0 !important;
+}
+.search_input input{}
+.dropdown-menu {
+    --bs-dropdown-min-width: 12rem;
+    --bs-dropdown-padding-x: -1;
+    --bs-dropdown-spacer: 1.125rem;
+    --bs-dropdown-font-size: 1rem;
+    --bs-dropdown-link-active-bg: transparent;
+}
+.dropdown-menu[data-bs-popper] {
+    left: -150px;
+}
+.search_btn:hover i{
+    color: #e8631c;
+}
+/* header end  */
+
+
+
+/* banner start  */
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_item{
+    margin: 300px 0 90px;
+}
+.banner_item h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 125px;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+.banner_item p{
+    margin: 40px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+/* cmn btn start  */
+.btn_cmn{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.btn_cmn:hover{
+    transition: linear .33s;
+}
+.btn_cus{
+    padding: 8px 50px;
+    background-color: #e8631c;
+    letter-spacing: 2px;
+}
+.btn_cus:hover{
+    color: #ffffff;
+    background-color: #303030;
+}
+/* cmn btn end  */
+/* banner end  */
+
+
+
+/* dance tour start  */
+.tour{
+    padding: 110px 0 100px;
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* cmn row start  */
+.cmn_row_item{
+    text-align: center;
+}
+.cmn_row_item h2{
+    margin: 0 0 60px;
+    font-family: "Oswald", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.cmn_row_item p{
+    font-family: "Montserrat", sans-serif;
+}
+/* cmn row end  */
+.card_item{
+    margin: 90px 0 0;
+    text-align: center;
+}
+.card_img{}
+.card_img img{}
+.card_text{
+    background-color: #303030;
+}
+.cmn_h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 37px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.card_text h3{
+    padding: 40px 0 0;
+}
+.card_text p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+}
+.card_text p{
+    padding: 25px 5px;
+}
+/* dance tour end */
+
+
+
+/* pricing start  */
+.price{
+    padding: 110px 0 100px;
+    background-image: url(../images/bg2.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.price_padd{}
+.price_item{
+    margin: 90px 0 0;
+    padding: 0 15px;
+    text-align: center;
+    background-color: #e8631c;
+}
+.price_icon{
+    margin: 30px 0;
+    font-size: 120px;
+}
+.price_item h3{}
+.price_item p{
+    padding: 35px 0 25px;
+}
+.btn_price{
+    margin: 0 0 30px;
+    width: 100%;
+    font-size: 25px;
+    background-color: #303030;
+}
+.price_item:hover{
+
+}
+.price_item:hover{
+    color: #303030 !important;
+    background-color: #fff;
+    box-shadow: rgba(255, 76, 5, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: linear .33s;
+}
+.price_item:hover .price_h3{
+    color: #303030;
+}
+.btn_price:hover{
+    color: #fff;
+    background-color: #e8631c;
+    transition: linear .33s;
+}
+.price_icon:hover{
+    color: #e8631c;
+    transition: linear .33s;
+}
+/* pricing end  */
+
+
+
+/* amazing dance start  */
+.amazing{
+    background-image: url(../images/bg3.jpg);
+}
+.amazing_best_cmn{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cmn_amazing_best_img{}
+.amazing_col{}
+.amazing_best_cmn_col{
+    align-content: center;
+}
+.amazing_img{}
+.cmn_amazing_best_text{
+    padding: 0 10%;
+}
+.amazing_text{}
+.cmn_amazing_best_text h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.cmn_amazing_best_text p{
+    padding: 70px 0;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.cmn_amazing_best_btn{
+    padding: 5px 30px;
+    background-color: #303030;
+}
+.amazing_btn{}
+.cmn_amazing_best_btn:hover{
+    color: #303030;
+    background-color: #ffffff;
+}
+/* amazing dance end  */
+
+
+
+/* best dance start  */
+.best{
+    background-image: url(../images/bg4.jpg);
+}
+/* best dance end  */
+
+
+
+/* statistics start  */
+.statistics{
+    padding: 200px 0 270px;
+    background-color: #303030;
+}
+.statistics_content{
+    margin: 200px 0 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+.statistics_content h2{
+    display: inline;
+    font-size: 67px;
+    letter-spacing: 5px;
+}
+.counterplus{
+    display: inline;
+    font-size: 67px;
+}
+.statistics_content h4{
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+/* statistics end  */
+
+
+
+/* herbert simon start  */
+.herbert{
+    padding: 350px 0;
+    background-image: url(../images/bg5.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.herbert_item{
+    align-content: center;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+.herbert_item p{
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+}
+.herbert_item h2{
+    margin: 80px 0 0;
+    font-size: 60px;
+}
+/* herbert simon end  */
+
+
+
+/* subscribe start  */
+.subscribe{
+    padding: 120px 0 160px;
+    background-image: url(../images/bg6.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.subscribe_item{}
+.subscribe_item h2{}
+.subscribe_item p{}
+.form_row{
+    margin: 60px 0 0;
+}
+.form_input{}
+.form_input input{
+    padding: 7px 21px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: #000000;
+    border: none;
+    border-radius: 0;
+}
+.form_btn{}
+.btn_subscribe{
+    padding: 3px 38px;
+    background-color: #303030;
+    border: none;
+    border-radius: 0;
+}
+.btn_subscribe:hover{
+    background-color: #000000;
+    transition: .33s;
+}
+/* subscribe end  */
+
+
+
+/* footer start  */
+footer{
+    padding: 110px 0 90px;
+    background-color: #303030;
+}
+.foot_content{}
+.foot_cmn_title{
+    margin: 0 0 40px 0;
+    font-family: "Oswald", sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.foot_menu_cmn_title{}
+.foot_content p{
+    margin: 0 0 40px 0;
+    line-height: 35px;
+}
+.foot_cmn_links{}
+.foot_social_icon{}
+.foot_social_icon li{}
+.foot_social_icon li a{
+    margin: 0 25px 0 0;
+}
+.foot_social_icon li a i{
+    color: #ffffff;
+}
+.foot_menu_list{
+    margin: 0;
+    padding: 0;
+}
+.foot_menu_list li{
+    list-style: none;
+}
+.foot_menu_list li a{
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+.foot_social_icon li a i:hover{
+    color: #e8631c;
+    transform: scale(1.5);
+    transition: .33s;
+}
+.foot_menu_list li a:hover{
+    border-bottom: 1px solid #e8631c;
+    transition: .33s;
+}
+/* footer end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

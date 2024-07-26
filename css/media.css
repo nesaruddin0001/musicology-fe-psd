@@ -36,6 +36,9 @@ header {
 /* header end  */
 
 /* banner start  */
+.banner {
+    background-position: right;
+}
 .banner_item{
     margin: 250px 0 75px;
     text-align: center;
@@ -244,6 +247,9 @@ header {
 /* header end  */
 
 /* banner start  */
+.banner {
+    background-position: right;
+}
 .banner_item{
     margin: 200px 0 50px;
     text-align: center;
